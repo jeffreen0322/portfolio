@@ -1,0 +1,21 @@
+body {
+  background-color: #AAC4FF;
+}
+
+h1, h2, h3 {
+  color: #E0144C;
+}
+
+hr {
+  border-style: none;
+  height: 2px;
+  background-color: white;
+}
+
+.preview {
+  height: 200px;
+}
+
+#port_title, #port_desc {
+  color: black;
+}
