@@ -2,30 +2,32 @@ body {
   background-color: #AAC4FF;
 }
 
-h1, h2, h3 {
-  color: #E0144C;
+h1, h2 {
+  font-family: Georgia;
 }
 
 hr {
   border-style: none;
   height: 2px;
-  background-color: white;
+  background-color: black;
 }
 
 .preview {
   height: 200px;
 }
 
-#port_title, #port_desc {
-  color: black;
-}
 
-#anime-rank, #birthday, #jp-colors, #meme {
+#container div {
   float: left;
   height: 25%;
   width: 25%;
 }
 
-#htmlHeading {
-  color: black;
+#container h3, #class-project h3 {
+  color: #E0144C;
 }
+
+#top-nav {
+  text-align: center;
+}
+
