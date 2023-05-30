@@ -6,10 +6,23 @@ h1, h2 {
   font-family: Georgia;
 }
 
+h3 {
+  padding-left: 10px;
+}
+
 hr {
+  background-color: black;
   border-style: none;
   height: 2px;
-  background-color: black;
+  clear: left;
+}
+
+img {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .preview {
