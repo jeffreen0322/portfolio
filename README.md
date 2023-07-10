@@ -1,2 +1,2 @@
 # portfolio
-Portfolio of projects
+Portfolio of my progress/projects for web development. This portfolio follows closely Angela Yu's App Brewery Web Development Crash Course on Udemy.
