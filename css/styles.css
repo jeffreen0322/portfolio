@@ -6,34 +6,30 @@ h1, h2 {
   font-family: Georgia;
 }
 
-h3 {
-  padding-left: 10px;
+h2 {
+  text-align: center;
 }
 
 hr {
   background-color: black;
   border-style: none;
   height: 2px;
-  clear: left;
 }
 
-img {
-  float: left;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+.grid1-item > img {
+  height: 250px;
 }
 
-.preview {
-  height: 200px;
+.grid1-item {
+  text-align: center;
+  padding: 5px;
+  border: 2px black solid;
 }
 
-
-#container div {
-  float: left;
-  height: 25%;
-  width: 25%;
+#htmlCSS {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 #container h3, #class-project h3 {
@@ -43,4 +39,3 @@ img {
 #top-nav {
   text-align: center;
 }
-
