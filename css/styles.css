@@ -16,11 +16,7 @@ hr {
   height: 2px;
 }
 
-.grid1-item > img {
-  height: 250px;
-}
-
-.grid1-item {
+.grid1-item, .grid2-item {
   text-align: center;
   padding: 5px;
   border: 2px black solid;
@@ -30,6 +26,12 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+#capstone {
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 #container h3, #class-project h3 {
